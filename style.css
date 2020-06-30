@@ -68,6 +68,10 @@ section{
     background-repeat: no-repeat;
 }
 
+#biography{
+    margin-top: 150px;
+}
+
 .work-area{
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
