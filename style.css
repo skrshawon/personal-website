@@ -8,26 +8,30 @@ img{
     width: 100%;
 }
 
- h1{
-    font-size: 25px;
-    font-weight: 400;
+section{
+    padding: 20px 0;
+    height: 600px;
 }
 
-.top-area h2{
-    color: #EC4F91;
+ h1{
     font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
     margin: 0;
 }
 
-section{
-    padding: 120px 0;
-    height: 700px;
+.top-area h1{
+    color:#363958;
 }
 
-.top-area{
-    background-image: url(images/header-bg.png);
-    background-repeat: no-repeat;
+.top-area h2{
+    color: #ff8367;
+    font-size: 45px;
+    margin: 0;
+    text-transform: uppercase;
 }
+
+
 
 .container{
     margin: 100px auto;
@@ -44,6 +48,9 @@ section{
     margin-right: 20px;
 }
 
+.content h1{
+    color: #363857;
+}
 
 .content-pragraph{
     margin-bottom: 38px;
@@ -51,8 +58,8 @@ section{
 
 .my-button{
     text-decoration: none;
-    background: linear-gradient(45deg, #EC4F91, #ED4B73);
-    padding: 10px 40px;
+    background: linear-gradient(45deg, #f56260, #fa7261);
+    padding: 15px 40px;
     border-radius: 5px;
     color: white;
     font-weight: 700;
@@ -63,20 +70,24 @@ section{
 #profile{
     margin: 100px 0;
 }
-.biography-area{
-    background-image: url(images/biography-bg.png);
-    background-repeat: no-repeat;
-}
 
-#biography{
-    margin-top: 150px;
-}
 
 .work-area{
-    background-image: url(images/latest-work-bg.png);
-    background-repeat: no-repeat;
+    background-color: #f8f9fb;
 }
 
+
+.work-area h2{
+    color: #363857;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.work-area span{
+    color: #f45f5f;
+}
 
 .img-box{
     float: left;
@@ -84,18 +95,6 @@ section{
     margin: 10px;
 }
 
-.work-area h2{
-    text-align: center;
-    font-size: 35px;
-    font-weight: 400;
-    margin-bottom: 80px;
-}
-
-.client-area{
-    background-image: url(images/footer-bg.png);
-    background-repeat: no-repeat;
-    height: 400px;
-}
 
 .text-content{
     text-align: center;
@@ -105,36 +104,42 @@ section{
     font-size: 40px;
 }
 
-.ceo{
-    margin-bottom: 40px;
+.work-area{
+    padding: 100px;
 }
-
-.ceo h3, p{
-margin: 0;
-}
-
-.ceo p{
-    color: gray;;
-}
-
-.email-block{
-    background: linear-gradient(45deg, #EC4F91, #ED4B73);
-    display: inline-block;
-    padding:40px 140px;
-    margin-top: 40px;
-    color: #ffffff;
+.img-box{
+    color: #6c6c6c;
+    background-color: #ffffff;
+    padding: 18px;
     border-radius: 10px;
 }
 
-.email-block a{
-    color: #ffffff;
-    text-decoration: none;
+.img-box img{
+    margin-bottom: 8px;
+}
+.img-box h3{
+    color: #363857;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
-.text-content footer{
-    margin-top: 270px;
-}
 
-footer{
+.inquiry{
+    background-image: url(images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 290px;
     text-align: center;
 }
+
+.inquiry-block{
+    padding: 10px;
+}
+
+.inquiry-block h2{
+    font-size: 45px;
+    color: #ffffff;
+}
+
+
+
